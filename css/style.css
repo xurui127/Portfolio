@@ -412,13 +412,14 @@ img {
     width: 600px;
     align-content: center;
     text-align: center;
-    transform: translateX(-4rem);
+    /* transform: translateX(-4rem); */
+    transform: translateX(-6rem);
 }
 
 .home__welcome{
     text-align: center;
     font-size: var(--small-font-size);
-    color: var(--text-color);
+    color: var(--first-color-alt);
     padding: 1.5rem;
 }
 
@@ -884,7 +885,7 @@ transform: all 0.5s;
   }
   /* ============  MEDIA QUERIES ================= */
     /* Small Screen */
-    @media screen and (max-width: 350px){
+    @media screen and (max-width: 375px){
         .container{
           margin-left: var(--mb-0-25);
           margin-right: var(--mb-1);
@@ -901,7 +902,15 @@ transform: all 0.5s;
         .home__content{
           grid-template-columns: .25fr 3fr;
         }
-    
+    .home__data{
+      
+      width: auto;
+      align-content: center;
+      text-align: center;
+      /* transform: translateX(-4rem); */
+      transform: translateX(-3.5rem);
+    }
+        transform: translateX(-6rem);
         .home__scroll{
           margin-top: var(--mb-0-25);
           margin-bottom: var(--mb-0-25);
